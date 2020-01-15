@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+  <title>Test</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header id="TopOfWebsite">
+    <nav class="navigation">
+      <div class="container">
+        <a href="index.html"><p class="logo">Cloud.<span class="blue_span">24</span></p></a>
+        <div class="header_flex">
+          <navbar class="navbarUl">
+            <ul class="ulnav anchor">
+              <li><a class="anchorA" href="#">Home</a></li>
+              <li><a class="anchorA" href="#">Map</a></li>
+              <li><a class="anchorA" href="#">News</a></li>
+              <li><a class="anchorA" href="#">Contact</a></li>
+            </ul>
+            <nav class="navBurger anchor" role="navigation">
+              <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                  <li><a class="anchorA" href="#">Home</a></li>
+                  <li><a class="anchorA" href="#">Map</a></li>
+                  <li><a class="anchorA" href="#">News</a></li>
+                  <li><a class="anchorA" href="#">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+          </navbar>
+          <a href="#" target="_blank">
+            <button class="header_btn">Get App</button>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="weatherReport">
+    <div class="container">
+      <div class="weatherReportcontent">
+        <div class="searchWeather">
+          <h1>Diffrent kind of weather </br> inside of 24/7 hours.</h1>
+          <p>Yet too often some very human cultural artifacts
+          realy lead the business down certian roules.</p>
+
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <input type="text"  placeholder="      Search Zip, City, Place" id="cityName">
+          <button  onclick="getWeather()">
+            Get Update
+          </button>
+          <div class="searchP">
+            <p>Best way to know your city weather.</p>
+          </div>
+          <div class="searchP">
+
+          </div>
+        </div>
+        <div class="infoWeather">
+          <div class="weatherResponse">
+            <div class="weatherResponseImg"></div>
+            <div class="weatherResonseDataDiv">
+              <p>WEATHER REPORT</p>
+                <p class="weatherResponseData"></p>
+            </div>
+          </div>
+          <div class="weatherIndicator">
+            <div class="weatherInfo">
+              <div class="weatherResponseImg"></div>
+              <div class="weaterDegDiv">
+                <p class="weatherDeg"></p>
+                <p class="weatherDescription"></p>
+              </div>
+            </div>
+            <div class="weatherWind">
+              <div class="wetherWindFlex">
+                <img src="img/cloud.png" alt="">
+                <p class="clouds"></p>
+              </div>
+              <div class="wetherWindFlex">
+                <img src="img/snow.png" alt="">
+                <p class="humidity"></p>
+              </div>
+              <div class="wetherWindFlex">
+                <img src="img/wind.png" alt="">
+                <p class="windSpeed"></p>
+              </div>
+                <div class="todayWather">
+                  <h2>Today’s Weather Forecast </h2>
+                  <p>Yet too often some very human cultural artifacts really
+                    lead the business down the certain routes.
+                    Data should underlie every business decision. </p>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <section class="moreInfo">
+    <div class="container">
+      <div class="comprehenesive">
+        <div class="comprehenesiveInfo">
+          <h1>Get the Comprehensive </br> Weather Information.</h1>
+          <p>Data should underlie every business decision. certain routes. Data
+should be underlie every business decision. Yet too often some very
+human cultural artifacts for really business down the certain routes.
+Data should underlie every business must decision.  </p>
+          <button >
+            More Info
+          </button>
+        </div>
+        <div class="comprehenesiveImg">
+          <img src="img/computer.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="FAQ">
+    <div class="container">
+      <div class="FAQTitle">
+        <h1>Frequently Asked Questions</h1>
+        <div class="faqList">
+    <div class="faqItem">
+        <div class="faqItemTitle">
+            <div class="faqItemTitleInner">
+              How can i get help by the cloud weather app?
+            </div>
+        </div>
+        <div class="faqItemBody">
+           Digital Marketing Agency all foundational tool need inbound success. With module there no to go another day. Digital Marketing Agency
+          all foundational tool inbound success. With mode there no need another day. Digital Marketing Agency all foundational tool need
+          inbound success. With module there no need to go another day.
+        </div>
+    </div>
+    <div class="faqItem">
+        <div class="faqItemTitle">
+            <div class="faqItemTitleInner">
+                User Guide; Getting started
+            </div>
+        </div>
+        <div class="faqItemBody">
+          Digital Marketing Agency all foundational tool need inbound success. With module there no to go another day. Digital Marketing Agency
+         all foundational tool inbound success. With mode there no need another day. Digital Marketing Agency all foundational tool need
+         inbound success. With module there no need to go another day.
+        </div>
+    </div>
+    <div class="faqItem">
+        <div class="faqItemTitle">
+            <div class="faqItemTitleInner">
+                How can i get help by weather services agency?
+            </div>
+        </div>
+        <div class="faqItemBody">
+          Digital Marketing Agency all foundational tool need inbound success. With module there no to go another day. Digital Marketing Agency
+         all foundational tool inbound success. With mode there no need another day. Digital Marketing Agency all foundational tool need
+         inbound success. With module there no need to go another day.
+        </div>
+    </div>
+    <div class="faqItem">
+        <div class="faqItemTitle">
+            <div class="faqItemTitleInner">
+                Are you plan to open a branch in New York?
+            </div>
+        </div>
+        <div class="faqItemBody">
+          Digital Marketing Agency all foundational tool need inbound success. With module there no to go another day. Digital Marketing Agency
+         all foundational tool inbound success. With mode there no need another day. Digital Marketing Agency all foundational tool need
+         inbound success. With module there no need to go another day.
+        </div>
+    </div>
+    <div class="faqItem">
+        <div class="faqItemTitle">
+            <div class="faqItemTitleInner">
+                How long your contract term?
+            </div>
+        </div>
+        <div class="faqItemBody">
+          Digital Marketing Agency all foundational tool need inbound success. With module there no to go another day. Digital Marketing Agency
+         all foundational tool inbound success. With mode there no need another day. Digital Marketing Agency all foundational tool need
+         inbound success. With module there no need to go another day.
+        </div>
+    </div>
+    <div class="faqItem">
+        <div class="faqItemTitle">
+            <div class="faqItemTitleInner">
+                What about loan programs and after bank advantage?
+            </div>
+        </div>
+        <div class="faqItemBody">
+          Digital Marketing Agency all foundational tool need inbound success. With module there no to go another day. Digital Marketing Agency
+         all foundational tool inbound success. With mode there no need another day. Digital Marketing Agency all foundational tool need
+         inbound success. With module there no need to go another day.
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+  </section>
+  <section class="partners">
+    <div class="container">
+      <div class="partnersLogo">
+        <div class="partnersBack">
+          <div class="pop">
+            <a href="#"><img src="img/pop.png" alt="pop"></a>
+        </div>
+        </div>
+        <div class="partnersBack">
+          <div class="drake">
+            <a href="#"><img src="img/drake.png" alt="drake"></a>
+          </div>
+        </div>
+        <div class="partnersBack">
+          <div class="sony">
+            <a href="#"><img src="img/sony.png" alt="sony"></a>
+          </div>
+        </div>
+        <div class="partnersBack">
+          <div class="microsoft">
+            <a href="#"><img src="img/microsoft.png" alt="microsoft"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="footerinfo">
+        <div class="copyright">
+          <p>Copyright © 2011-2019 | Designed by
+           <a href="#"><span class="blue_span">Sabbir Ahmed</span></p></a>
+        </div>
+        <div class="footerSocial">
+          <a href="#"> <img src="img/facebook.png" alt=""></a>
+          <a href="#"> <img src="img/twitter.png" alt=""></a>
+          <a href="#"> <img src="img/dribble.png" alt=""></a>
+          <a href="#"> <img src="img/instagram.png" alt=""></a>
+          <a href="#"> <img src="img/linkedin.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
